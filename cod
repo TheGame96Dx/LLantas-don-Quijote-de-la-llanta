@@ -1,0 +1,28 @@
+<link rel="hoja de estilo" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-mensajero
+  oauth-client-id="INSERTAR_ID_DE_CLIENTE_OAUTH"
+  Ubicación="us-central1"
+  proyecto-id="deft-base-440422-u2"
+  agente-id="b9728ae6-45f4-4e37-8e1a-4c2ebacea286"
+  código de idioma="es"
+  longitud máxima de consulta="-1">
+  <chat de df-messenger
+   chat-title="Cotizador de Llantas - Don Chicote de la llanta">
+  </chat de df-messenger>
+</df-mensajero>
+<estilo>
+  mensajero df {
+    índice z: 999;
+    posición: fija;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-fondo: #f3f6fc;
+    --df-messenger-mensaje-usuario-fondo: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    abajo: 0;
+    derecha: 0;
+    arriba: 0;
+    ancho: 350px;
+  }
+</estilo>
